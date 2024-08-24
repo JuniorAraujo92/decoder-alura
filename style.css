@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*
+- Responsividade Tablet
+- Responsividade Celular
+
+
+.conteiner
+    flex-wrap: wrap;
+    width: 80rem;
+    height: 30rem;
+    top: 18.875rem;
+    left: -142.313rem;
+*/
+
+.header{
+    display: flex;
+    padding: 2% 0% 0% 2%;
+}
+
+.conteiner{
+    padding: 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+   
+}
+
+
+.conteiner__areaCripto{
+    flex-direction: column;
+    align-content: center;
+    width: 43.75rem;
+    gap: 30px;
+}
+
+.conteiner__areaCripto__textoCripto {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    height: 12.5rem;
+    width: 43.75rem;
+    font-size: 32px;
+    padding-bottom: 300px;
+    color: darkblue;
+    border: none;
+    outline: none;
+    text-align: left;
+    overflow-wrap: break-word;
+    resize: none;
+}
+
+.conteiner__areaCripto__textoCripto::-webkit-scrollbar {
+    display: none; 
+}
+
+
+
+.conteiner__areaCripto__aviso{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.conteiner__areaCripto__botoes{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.conteiner__areaCripto__botao{
+    align-content: center;
+    background-color: darkblue;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    width: 21.125rem;
+    height:  4.188rem;
+    gap: 24px;
+    border-radius: 16px;
+}
+
+
+.conteiner__areaDescripto{
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-content: center;
+    padding: 5% 5%;
+    width: 25rem;
+    height: 37.5rem;
+    top: 40px;
+    border-radius: 32px ;
+
+}
+
+.conteiner__areaDescripto__conteudo{
+    align-content: center;
+    justify-content: space-between;
+}
+
+.conteiner__areaDescripto__imagem{
+    display: flex;
+    align-content: center;
+    
+}
+
+.conteiner__areaDescripto__titulo{
+    align-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.conteiner__areaDescripto__paragrafo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteiner__areaDescripto2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+    padding: 5% 5%;
+    width: 25rem;
+    height: 37.5rem;
+    border-radius: 32px ;
+}
+
+.conteiner__areaDescripto__textoDescripto {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    overflow-y: scroll;
+    height: max-content;
+    text-align: left;
+    overflow-wrap: break-word;
+    color: gray;
+    flex: 1;
+    gap: 20px;
+}
+
+
+.conteiner__areaDescripto__textoDescripto::-webkit-scrollbar {
+    display: none; 
+}
+
+.conteiner__areaDescripto2::-webkit-scrollbar {
+    display: none; 
+}
+
+
+.conteiner__areaDescripto__botaoCopiar {
+    background-color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    color:darkblue ;
+    width: 100%;
+    height: 4.188rem;
+    border-radius: 24px;
+    align-self: flex-start;
+    padding: auto;
+    margin-top: 5%;
+
+}
+
+
+.conteiner__areaCripto__botao:disabled{
+    background-color: gray;
+}
+
+@media (max-width: 768px) {
+    .header{
+        padding: 2% 3%;
+    }
+
+    .conteiner{
+        flex-basis: 100%;
+    }
+
+    .conteiner__areaCripto{
+        flex-basis: 100%; 
+        margin-bottom: 40px; 
+    }
+
+    .conteiner__areaCripto__textoCripto{
+        width: 100%;
+    }
+
+    .conteiner__areaCripto__aviso{
+        width: 100%;
+    }
+
+    .conteiner__areaCripto__botoes{
+        width: 100%;
+    }
+    .conteiner__areaCripto__botao{
+        width: 100%;
+    }
+
+
+    .conteiner__areaDescripto{
+        flex-basis: 100%; 
+        height: 40%;
+        margin-bottom: 40px; 
+
+    }
+
+    .conteiner__areaDescripto__imagem{
+        display: none;
+    }
+
+    .conteiner__areaDescripto2{
+        flex-basis: 100%; 
+        height: 40%;
+        margin-bottom: 40px; 
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .conteiner__areaCripto__botoes{
+        flex-direction: column;
+
+    }
+    
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder Alura</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/img/alura-logo.png">
+    </header>
+    <main class="conteiner">
+        <div class="conteiner__areaCripto">
+            <textarea id="texto_cripto" oninput="verificaTexto()" placeholder="Insira aqui o texto" class="conteiner__areaCripto__textoCripto"></textarea>
+            <h3 id="aviso" class="conteiner__areaCripto__aviso">Utilize apenas letras minusculas sem acento</h3>
+            <div class="conteiner__areaCripto__botoes">
+                <button onclick="criptografar()" id="botao_cripto" class="conteiner__areaCripto__botao">Criptografar </button>
+                <button onclick="descriptografar()" disabled id ="botao_descripto" class="conteiner__areaCripto__botao" >Descriptografar</button>
+            </div>
+        </div>
+        <section id="descripto_conteiner" class="conteiner__areaDescripto">
+            <img id="imagem_mensagem"  class="conteiner__areaDescripto__imagem" src="./img/sem-mensagem.svg">
+            <div id="descripto_conteudo" class="conteiner__areaDescripto__conteudo">
+                <h2 class="conteiner__areaDescripto__titulo"><strong>Nenhuma mensagem encontrada</strong></h2>
+                <p class="conteiner__areaDescripto__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+<script src="app.js" defer></script>
+</html>
