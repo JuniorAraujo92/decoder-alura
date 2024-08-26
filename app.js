@@ -6,12 +6,6 @@ A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 */
 
-/*
-1. digitar texto na area Cripto
-2. Ao clicar no botão Criptografar, Texto criptografado eh inserido na area Descripto junto com o botao Copiar e texto da area Cripto eh substituido por "insira um texto"
-3. Ao clicar em Copiar, o texto da area Descripto eh mudado para "Sem mensagem" e o texto Criptografado eh copiado para Area cripto
-4. ao clicar em descriptografar, o texto descritografado retorna a area descritpo e o texto retorna para "insira um texto" 
-*/
 
 function limparTexto(texto) {
     texto = document.getElementById('texto_cripto');
