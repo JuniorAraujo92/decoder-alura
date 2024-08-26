@@ -230,13 +230,12 @@
 @media (max-width: 400px) {
 
     .header {
-        padding: 2% 3% 0% 0%;
+        padding: 2% 5% 7% 0%;
     }
 
     .conteiner__areaCripto__textoCripto {
-        padding-bottom: 100px;
-        
-    }    
+        padding-bottom: 40px;   
+    }
 
     .conteiner__areaCripto__botoes{
         flex-direction: column;
