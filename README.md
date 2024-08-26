@@ -22,7 +22,7 @@ Instruções:
 1. Digite texto na área esquerda e clique em Criptografar.
 2. O texto criptografado aparecerá na área direita.
 3. Ao clicar em Copiar, o texto descriptografado retornará até a área esquerda.
-4. Ao clicar em Descriptografar, o texto descritografado volta até sua área original. 
+4. Ao clicar em Descriptografar, o texto descriptografado volta até sua área original. 
 
 
 
