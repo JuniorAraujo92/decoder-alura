@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/*
-- Responsividade Tablet
-- Responsividade Celular
-
-
-.conteiner
-    flex-wrap: wrap;
-    width: 80rem;
-    height: 30rem;
-    top: 18.875rem;
-    left: -142.313rem;
-*/
-
 .header{
     display: flex;
     padding: 2% 0% 0% 2%;
@@ -43,7 +30,7 @@
     width: 43.75rem;
     font-size: 32px;
     padding-bottom: 300px;
-    color: darkblue;
+    color: #0A3871;
     border: none;
     outline: none;
     text-align: left;
@@ -75,7 +62,7 @@
 
 .conteiner__areaCripto__botao{
     align-content: center;
-    background-color: darkblue;
+    background-color: #0A3871;
     font-size: 24px;
     text-align: center;
     color: white;
@@ -163,7 +150,7 @@
     background-color: whitesmoke;
     font-size: 16px;
     text-align: center;
-    color:darkblue ;
+    color:#0A3871 ;
     width: 100%;
     height: 4.188rem;
     border-radius: 24px;
