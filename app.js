@@ -6,10 +6,6 @@ A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 */
 
-// Desafio: conseguir realizar a função descriptografar sem o uso de replace
-// - Verificar o campo vazio ao descriptografar
-// - Fazer com q a frase "Sem mensagems para descriptografar" ñ seja lida pelos botoes
-
 /*
 1. digitar texto na area Cripto
 2. Ao clicar no botão Criptografar, Texto criptografado eh inserido na area Descripto junto com o botao Copiar e texto da area Cripto eh substituido por "insira um texto"
@@ -177,21 +173,6 @@ function criptografar(){
 
 function descriptografar(){
     let textASerDecripto = document.getElementById('texto_cripto').value ;
-    let botaoDescripto = document.getElementById('botao_descripto');
-
-
-    /*
-    //Se a o texto estiver vazio
-    if(textASerDecripto.trim()=== ''){
-        avisoDescriptoVazio();
-        botaoDescripto.disabled = true;
-        return;
-    } else {
-        avisoPadrao();
-    }
-
-    botaoDescripto.disabled = false;
-    */
         
     cache = textASerDecripto.replace(/ai/g,"a")
                             .replace(/enter/g,"e")
@@ -205,7 +186,6 @@ function descriptografar(){
     let textoDescripto = document.getElementById('texto_descripto');
 
     textoDescripto.innerHTML = cache; 
-    //limparTexto(textASerDecripto);
 
 
 
