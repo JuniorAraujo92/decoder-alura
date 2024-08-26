@@ -42,7 +42,7 @@
     height: 12.5rem;
     width: 43.75rem;
     font-size: 32px;
-    padding-bottom: 150px;
+    padding-bottom: 300px;
     color: darkblue;
     border: none;
     outline: none;
@@ -228,6 +228,15 @@
 }
 
 @media (max-width: 400px) {
+
+    .header {
+        padding: 2% 3% 0% 0%;
+    }
+
+    .conteiner__areaCripto__textoCripto {
+        padding-bottom: 100px;
+        
+    }    
 
     .conteiner__areaCripto__botoes{
         flex-direction: column;
